@@ -1,0 +1,6 @@
+newman run NafisaTonni.postman_collection.json
+
+newman run NafisaTonni.postman_collection.json -e NafisaTonni.postman_environment.json
+
+
+newman run NafisaTonni.postman_collection.json -e NafisaTonni.postman_environment.json -r cli,htmlextra
